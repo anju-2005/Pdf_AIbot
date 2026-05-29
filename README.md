@@ -23,3 +23,16 @@ AI-powered RAG chatbot that extracts information from PDF documents using Python
 git clone https://github.com/your-username/Pdf_Albot.git
 cd Pdf_Albot
 pip install -r requirements.txt
+
+## Run Project
+
+```bash
+streamlit run app.py
+```
+
+## Future Improvements
+
+- Multi PDF support
+- Voice assistant
+- Chat history
+- Better UI
