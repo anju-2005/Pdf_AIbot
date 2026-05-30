@@ -1,38 +1,9 @@
-# Pdf_Albot
+# Python AI-powered RAG Chatbot
 
-AI-powered RAG chatbot that extracts information from PDF documents using Python, embeddings, vector database, and LLMs for intelligent question answering.
+An educational, beginner-friendly Document RAG application running on Streamlit and FAISS.
 
-## Features
-- Upload PDF documents
-- Extract text from PDFs
-- Generate embeddings
-- Store vectors in database
-- Ask questions from uploaded PDFs
-- AI-powered answers using LLM
-
-## Tech Stack
-- Python
-- LangChain
-- FAISS / ChromaDB
-- OpenAI / Gemini API
-- Streamlit
-
-## Installation
-
-```bash
-git clone https://github.com/your-username/Pdf_Albot.git
-cd Pdf_Albot
-pip install -r requirements.txt
-
-## Run Project
-
-```bash
-streamlit run app.py
-```
-
-## Future Improvements
-
-- Multi PDF support
-- Voice assistant
-- Chat history
-- Better UI
+## Quickstart
+1. Run `pip install -r requirements.txt`
+2. Configure your Gemini API key from https://aistudio.google.com/
+3. Spin up the application with: `streamlit run app.py`
+4. Drag-and-drop any PDF, Word doc, or Text file in the Left Side-panel, process it, and experience fully grounded conversational memory QA immediately!
